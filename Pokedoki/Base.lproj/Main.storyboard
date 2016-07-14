@@ -106,7 +106,7 @@
                                     <action selector="musicPressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ko-8W-D2m"/>
                                 </connections>
                             </button>
-                            <searchBar contentMode="redraw" searchBarStyle="minimal" text="" translatesAutoresizingMaskIntoConstraints="NO" id="RpA-fg-Xn3">
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" text="" placeholder="Search for Pokemon" translatesAutoresizingMaskIntoConstraints="NO" id="RpA-fg-Xn3">
                                 <rect key="frame" x="0.0" y="55" width="600" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -154,6 +154,7 @@
                     <connections>
                         <outlet property="collectionsView" destination="TiL-HC-ICQ" id="cDZ-aZ-uta"/>
                         <outlet property="musicImg" destination="DTq-7V-6g3" id="ceh-hQ-X5h"/>
+                        <outlet property="searchBar" destination="RpA-fg-Xn3" id="xuH-I4-GZK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
